@@ -80,7 +80,8 @@ img {
 	padding: 3.2em 0;
 	margin-bottom: 48px;
 }
-.gallery {
+
+.container {
 	padding-right: 1em;
 	padding-left: 1em;
 }
@@ -114,7 +115,8 @@ img {
 
 	.main-header,
 	.main-nav,
-        .row {
+        .row,
+        .container {
 		display: flex;
 	}
 
@@ -123,7 +125,7 @@ img {
 		align-items: center;
 	}
 
-.gallery {
+.container {
   flex: 1 50%;
 }
 
@@ -143,7 +145,7 @@ img {
 		justify-content: space-between;
 	}
 
-.gallery {
+.container {
   flex-basis: 0;
 }
 
