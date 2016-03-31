@@ -106,20 +106,51 @@ img {
   Media Queries
 ==================================== */
 
+/* ================================= 
+  Media Queries
+==================================== */
+
 @media (min-width: 769px) {
+
 	.main-header,
-	.row {
-		width: 90%;
-		margin: 0 auto;
+	.main-nav,
+        .row,
+        .gallery {
+		display: flex;
 	}
-	.tagline {
-		font-size: 1.4em;
+
+	.main-header {
+		flex-direction: column;
+		align-items: center;
 	}
+
+     .gallery {
+  flex: 1 50%;
 }
+
+.gallery {
+  flex-wrap: wrap;
+}
+
+.secondary {
+  order: -1;
+}
+}
+
 @media (min-width: 1025px) {
-	.main-header,
-	.row {
-		width: 80%;
-		max-width: 1150px;
+
+	.main-header {
+		flex-direction: row;
+		justify-content: space-between;
 	}
+
+.gallery {
+  flex-basis: 0;
 }
+
+.primary {
+  flex-grow: 1.4;
+}
+
+}
+
