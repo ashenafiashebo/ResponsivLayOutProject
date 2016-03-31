@@ -6,7 +6,7 @@
 
 	.main-header,
 	.main-nav,
-  .row {
+        .row {
 		display: flex;
 	}
 
@@ -15,11 +15,11 @@
 		align-items: center;
 	}
 
-.col {
+     .gallery {
   flex: 1 50%;
 }
 
-.row {
+.gallery {
   flex-wrap: wrap;
 }
 
@@ -35,7 +35,7 @@
 		justify-content: space-between;
 	}
 
-.col {
+.gallery {
   flex-basis: 0;
 }
 
