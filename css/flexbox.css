@@ -2,6 +2,7 @@
   Flexbox
 ==================================== */
 
-.main-header {
+.main-header,
+.main-nav {
 	display: flex;
 }
