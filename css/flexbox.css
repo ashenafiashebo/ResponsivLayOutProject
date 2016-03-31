@@ -3,6 +3,7 @@
 ==================================== */
 
 .main-header,
-.main-nav {
+.main-nav,
+.name{
 	display: flex;
 }
